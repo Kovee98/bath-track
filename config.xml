@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.quickstart.cordovavue" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>CordovaVue</name>
+<widget id="com.jkovalchik.bathtrack" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Bath Track</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        An app to track bathroom activity at Averitt.
     </description>
     <author email="kovee98@gmail.com">
         Joshua Kovalchik
@@ -16,11 +16,12 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <platform name="android">
-        <allow-intent href="market:*" />
-    </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
+    </platform>
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon background="src/assets/logo.png" density="xxxhdpi" foreground="src/assets/logo.png" />
     </platform>
 </widget>
